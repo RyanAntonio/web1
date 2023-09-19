@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTMl Form</title>
+</head>
+<body>
+     
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>Personal Data:</legend>
+    <form action="process.php" method="POST"></form>
+    <form >
+        <!--Input type text-->
+        <label for="fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name: </label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <!--input type password-->
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+
+
+        <label for="color">Choose your color:</label><br>
+        <input type="color"><br>
+        <br>
+        <label for="date">Choose your date:</label><br>
+        <input type="date"><br>
+        <br>
+        <label for="datetime-local">Choose your datetime-local:</label><br>
+        <input type="datetime-local"><br>
+        <br>
+        <label for="email">your email:</label><br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="file">Choose your file :</label><br>
+        <input type="file" id="file" name="file">
+        <br>
+        <label for="hidden">your hidden:</label><br>
+        <input type="hidden"><br>
+        <br>
+        <label for="image">this your image</label><br>
+        <input type="image" src="lemon.jpg" alt="submit" height="34" width="40"><br>
+        <br>
+        <label for="month">at your month:</label><br>
+        <input type="month"><br>
+        <br>
+        <label for="quantity">Choose number 1-5:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <br>
+        <label for="range">Choose yout range:</label><br>
+        <input type="range"><br>
+        <br>
+        <label for="search">you can search this:</label><br>
+        <input type="search"><br>
+        <br>
+        <label for="table">this tel:</label><br>
+        <input type="tel"><br>
+        <br>
+        <label for="url">Enter a URL:</label><br>
+        <input type="url" id="url" name="url"><br>
+        <br>
+        <label for="week">for week:</label><br>
+        <input type="week"><br>
+        <br>
+
+        <br>
+        <!--select element-->
+        <label for="religion">Choose your religion</label><br>
+        <select  id="religion" name="religion" multiple>
+                <option value="Christian">Christian</option>
+                <option value="Moslem">Moslem</option>
+                <option value="Budhist">Budhist</option>
+                <option value="Hindu">Hindu</option>
+            </select>
+
+
+            <br>
+        <!--textarea element-->
+        <label for="comment">Write your comment below:</label><br>
+        <textarea id="comment" name="comment" rows="10" cols="30" ></textarea>
+
+        <br>
+        <!--input type radio-->
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+
+        
+        <!--input type checkbox-->
+        <p>Choose your hobbies:</p>
+        <input type="checkbox"  id="hobby1" name="hobby1" value="Badminton">
+        <label for="hobby1">Badminton</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="Futsal">
+        <label for="hobby2">Futsal</label><br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="Football">
+        <label for="hobby2">Football</label><br>
+        <input type="checkbox" id="hobby4" name="hobby4" value="Basketball">
+        <label for="hobby2">Basketball</label><br>
+
+        <br><br>
+        <!--input type submit-->
+        <input type="submit">
+
+        <!--input type reset-->
+        <input type="reset">
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
